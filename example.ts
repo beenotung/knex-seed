@@ -5,20 +5,20 @@ export async function seed(knex: Knex): Promise<void> {
   let teacher_alice_id = await seedRow(
     knex,
     'teacher',
-    { name: 'Alice' },
-    { subject: 'Yoga' },
+    { email: 'alice.wong@example.com' },
+    { name: 'Alice', course: 'Yoga' },
   )
 
   await seedRow(
     knex,
     'student',
-    { name: 'Bob' },
-    { level: 25, teacher_id: teacher_alice_id },
+    { tel: '98765432' },
+    { name: 'Bob', teacher_id: teacher_alice_id },
   )
   await seedRow(
     knex,
     'student',
-    { name: 'Charlie' },
-    { level: 25, teacher_id: teacher_alice_id },
+    { tel: '65432198' },
+    { name: 'Charlie', teacher_id: teacher_alice_id },
   )
 }
