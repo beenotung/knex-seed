@@ -10,3 +10,5 @@ dist/
 .DS_Store
 core.d.ts
 core.js
+example.d.ts
+example.js
