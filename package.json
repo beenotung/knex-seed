@@ -1,10 +1,35 @@
 {
   "name": "knex-seed",
   "version": "0.0.0",
-  "description": "",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "Helper function to insert or update seed data with ease using knex",
+  "keywords": [
+    "knex",
+    "seeding",
+    "database",
+    "data-management",
+    "migrations",
+    "knex-helper",
+    "seed",
+    "data",
+    "insert",
+    "sync",
+    "update",
+    "sql"
+  ],
+  "author": {
+    "name": "Beeno Tung",
+    "email": "aabbcc1241@yahoo.com.hk",
+    "url": "https://beeno-tung.surge.sh"
+  },
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beenotung/knex-seed.git"
+  },
+  "homepage": "https://github.com/beenotung/knex-seed#readme",
+  "bugs": {
+    "url": "https://github.com/beenotung/knex-seed/issues"
+  },
   "main": "index.js",
   "scripts": {
     "test": "tsc --noEmit",
