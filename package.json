@@ -30,7 +30,12 @@
   "bugs": {
     "url": "https://github.com/beenotung/knex-seed/issues"
   },
-  "main": "index.js",
+  "main": "core.js",
+  "types": "core.d.ts",
+  "files": [
+    "core.js",
+    "core.d.ts"
+  ],
   "scripts": {
     "test": "tsc --noEmit",
     "build": "tsc -p ."
